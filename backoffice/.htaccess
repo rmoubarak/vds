@@ -1,4 +1,4 @@
-AuthUserFile j:/VirtualHostSlam/vds/backoffice/.htpasswd
+AuthUserFile J:\VitualHostSlam\vds\backoffice\.htpasswd
 AuthName "Accès administration"
 AuthType Basic
 require user admin

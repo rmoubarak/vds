@@ -22,6 +22,8 @@ if (!preg_match($pattern, $id)) {
    Erreur::bloquerVisiteur();
 }
 
+// comptabilisation de l'appel
+StatPage::comptabiliser();
 
 // Le classement doit être présent dans le répertoire /data/classement (fort probable)
 $fichier = RACINE . "/data/classement/" . $id;
